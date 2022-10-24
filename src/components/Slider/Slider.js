@@ -51,6 +51,7 @@ const SliderForSol = () => {
               valueLabelDisplay="auto"
               onChange={getValue}
               onMouseUp={submit}
+              onTouchEnd={submit}
         />
     </Box>);
 };
